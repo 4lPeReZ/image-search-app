@@ -8,10 +8,16 @@
 </head>
 <body>
     <h1>Image Search App</h1>
-    <form action="">
+    <form>
         <input type="text" placeholder="Search for images" id="search-input" />
-        <button id="search-button">Search</button>
+        <button type="submit" id="search-button">Search</button> <!-- Tipo de botón corregido a 'submit' -->
     </form>
+
+    <div class="search-results">
+        <!-- Aquí se generan los resultados de búsqueda mediante JavaScript -->
+    </div>
+    
+    <button id="show-more-button">Show more</button>
     
     <script src="script.js"></script>
 </body>
